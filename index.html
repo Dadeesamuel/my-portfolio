@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
     <title>my portfolio</title>
+    <script src="https://kit.fontawesome.com/bf30d47bb2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div id="header">
         <div class="container">
@@ -16,7 +19,8 @@
                 <img src="image/uzzylogo1.png" alt="my logo" class="logo">
                 <ul>
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
                     <li><a href="#">PORTFOLIO</a></li>
                     <li><a href="#">CONTACT</a></li>
                 </ul>
@@ -24,75 +28,113 @@
             <!--header text-->
             <div class="header-text">
                 <p>Web Developer</p>
-                <h1>Hello, I'm  <span>Dadee</span> <br>Samuel from Nigeria</h1>
+                <h1>Hello, I'm <span>Dadee</span> <br>Samuel from Nigeria</h1>
             </div>
         </div>
     </div>
     <!--about section-->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="image/image1.jpeg" alt="my-image">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p>To evolve a fulfilling and rewarding career in any core area of economy via personal development and technical
-                acquisition toward building society of our collective aspirations. To use my practical skills and operations research
-                experience in enhancing better relationship with clients.</p>
-
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
-                    <p class="tab-links"onclick="opentab('experience')">experience</p>
-                    <p class="tab-links"onclick="opentab('education')">education</p>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/image1.jpeg" alt="my-image">
                 </div>
-                <div class="tab-contents active-tab" id="skills" >
-                    <ul>
-                        <li> <span>UI/UX</span> <br> Designing Web/App Interfaces</li>
-                        <li> <span>DeV Tools</span><br>Testing and Debugging Codes</li>
-                        <li> <span>Web Development</span><br>Creating a Responsive Websites</li>
-                    </ul>
-                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>To evolve a fulfilling and rewarding career in any core area of economy via personal development
+                        and technical
+                        acquisition toward building society of our collective aspirations. To use my practical skills
+                        and operations research
+                        experience in enhancing better relationship with clients.</p>
 
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li> <span>Acedu</span><br>Designing Web/App Interfaces</li>
-                        <li> <span>DeV Tools</span><br>Testing and Debugging Codes</li>
-                        <li> <span>Web Development</span><br>Creating a Responsive Websites</li>
-                    </ul>
-                </div>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span>UI/UX</span> <br> Designing Web/App Interfaces</li>
+                            <li> <span>DeV Tools</span><br>Testing and Debugging Codes</li>
+                            <li> <span>Web Development</span><br>Creating a Responsive Websites</li>
+                        </ul>
+                    </div>
 
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li> <span>Yabatech</span><br>Designing Web/App Interfaces</li>
-                        <li> <span>DeV Tools</span><br>Testing and Debugging Codes</li>
-                        <li> <span>Web Development</span><br>Creating a Responsive Websites</li>
-                    </ul>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li> <span>Acedu</span><br>Designing Web/App Interfaces</li>
+                            <li> <span>DeV Tools</span><br>Testing and Debugging Codes</li>
+                            <li> <span>Web Development</span><br>Creating a Responsive Websites</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <span>Yabatech</span><br>Designing Web/App Interfaces</li>
+                            <li> <span>DeV Tools</span><br>Testing and Debugging Codes</li>
+                            <li> <span>Web Development</span><br>Creating a Responsive Websites</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!--   services section-->
+    <!--   services section-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus praesentium illo unde, sint
+                        dicta et veritatis quam reprehenderit minus doloremque? Consequatur ratione fugiat molestias cum
+                        ab quia id similique. Doloremque!</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus praesentium illo unde, sint
+                        dicta et veritatis quam reprehenderit minus doloremque? Consequatur ratione fugiat molestias cum
+                        ab quia id similique. Doloremque!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus praesentium illo unde, sint
+                        dicta et veritatis quam reprehenderit minus doloremque? Consequatur ratione fugiat molestias cum
+                        ab quia id similique. Doloremque!</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<script>
-    let tablinks = document.getElementsByClassName("tab-links")
-    let tabcontents = document.getElementsByClassName("tab-contents")
+    <!--   portfolio section-->
+    
 
-    function opentab(tabname) {
-        for (tablink of tablinks) {
-            tablink.classList.remove("active-link");
-            
-        }
-        for (tabcontent of tabcontents) {
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link")
-        document.getElementById(tabname).classList.add("active-tab ")
-    }
+        <!--   script section-->
+        <script>
+            let tablinks = document.getElementsByClassName("tab-links")
+            let tabcontents = document.getElementsByClassName("tab-contents")
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
 
 
-</script>
+        </script>
 
 </body>
+
 </html>
