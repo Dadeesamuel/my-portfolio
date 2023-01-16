@@ -4,6 +4,9 @@
     padding: 0;
     font-family: 'poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: black;
     color: white;
@@ -305,6 +308,9 @@ background: #262626;
 font-weight: 300;
 margin-top: 100px;
 }
+nav .fas{
+    display: none;
+}
 /* css media query for small screen */
 @media only screen and (max-width:600px){
     .header-text {
@@ -320,4 +326,49 @@ margin-top: 100px;
         .header-text h1 span {
             color: red;
         }
+        nav img.logo{
+            width: 80px;
+        }
+                nav .fas{
+                    display: block;
+                    font-size: 25px;
+                   
+                }
+                nav ul{
+                    background-color: #83072e;
+                    position: fixed;
+                    top: 0;
+                    right: -150px;
+                    width: 150px;
+                    height: 50vh;
+                    padding-top: 50px;
+                    z-index: 2;
+                    transition: right 0.5s;
+                }
+                nav ul li{
+                    display: block;
+                    margin: 15px;
+                }
+                nav ul .fas{
+                    position: absolute;
+                    top: 25px;
+                    left: 25px;
+                    cursor: pointer;
+                }
+                                .sub-title {
+                                    font-size: 50px;
+                                }
+                                .about-col-1, .about-col-2{
+                                    flex-basis: 100%;
+                                }
+                                                                 .about-col-1{
+                                                                     margin-bottom: 30px;
+                                                                 }
+                  .contact-left, .contact-right{
+                      flex-basis: 100%;
+                  }
+                                  .contact-left .cv{
+                                      margin-top: 20px;
+                                    margin-bottom: 20px;
+                                  }
 }
