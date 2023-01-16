@@ -86,10 +86,15 @@ nav ul li a:hover::after{
 .about-col-2{
     flex-basis: 60%;
 }
+.about-col-2 p{
+    font-size: 20px;
+    font-family: cursive;
+}
 .sub-title{
 font-size: 60px;
 font-weight: 600;
 color: white;
+margin-left: 50px;
 }
 .tab-titles{
     display: flex;
@@ -310,6 +315,11 @@ margin-top: 100px;
 }
 nav .fas{
     display: none;
+
+}
+.contact-left .cv {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* css media query for small screen */
 @media only screen and (max-width:600px){
