@@ -305,3 +305,19 @@ background: #262626;
 font-weight: 300;
 margin-top: 100px;
 }
+/* css media query for small screen */
+@media only screen and (max-width:600px){
+    .header-text {
+            margin-top: 100%;
+            font-size: 15px;
+        }
+    
+        .header-text h1 {
+            font-size: 30px;
+            
+        }
+    
+        .header-text h1 span {
+            color: red;
+        }
+}
